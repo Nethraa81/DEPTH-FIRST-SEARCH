@@ -54,7 +54,6 @@ As we can see that every neighbours of node 4 are visited, so move to the next n
 Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue.
 Now, Queue becomes empty, So, terminate these process of iteration.
 
-
 <hr>
 <h2>Algorithm:</h2>
 <hr>
@@ -67,6 +66,10 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
 
 </ol>
+
+## PROGRAM
+
+![image](https://github.com/user-attachments/assets/13b1bd1b-7c58-4b4e-917f-83370f0abe48)
 
 <hr>
 <h3>Sample Input</h3>
@@ -83,10 +86,8 @@ D G <BR>
 G F <BR>
 <hr>
 <h3>Sample Output</h3>
-<hr>
-['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
-<hr>
+![Screenshot 2025-03-24 093745](https://github.com/user-attachments/assets/0cd177e5-b608-4889-aecc-196ad979fb66)
 
 <hr>
 <h3>Sample Input</h3>
@@ -100,9 +101,9 @@ G F <BR>
 3 4 <BR>
 <hr>
 <h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
-<hr>
+
+![Screenshot 2025-03-24 093812](https://github.com/user-attachments/assets/3b2f38f4-daae-4acd-9877-21221295d050)
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
